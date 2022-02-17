@@ -1,0 +1,6 @@
+framework module paylib {
+  umbrella header "paylib-umbrella.h"
+
+  export *
+  module * { export * }
+}

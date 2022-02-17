@@ -1,0 +1,6 @@
+framework module Pods_wvlib_Example {
+  umbrella header "Pods-wvlib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

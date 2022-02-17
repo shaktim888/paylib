@@ -1,0 +1,16 @@
+PODS:
+  - paylib (0.1.0)
+
+DEPENDENCIES:
+  - paylib (from `../`)
+
+EXTERNAL SOURCES:
+  paylib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  paylib: d68a7d143d2fa30aa6eaf59c0425792f47dc9334
+
+PODFILE CHECKSUM: 9c184a5c0048f88d432446a991b4943905ae4cd1
+
+COCOAPODS: 1.6.0

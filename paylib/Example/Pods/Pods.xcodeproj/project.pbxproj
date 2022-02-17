@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DBF156E32777092D4A47A436E7F6389 /* paylib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C366A50A9CE668AB5685D3004DE57EB /* paylib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5621A73BC9E571539984A8775BB18F4B /* Pods-wvlib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCE46EF3693D6805D844E8F2994B050 /* Pods-wvlib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56554ACA5A0882C2E0A9A63767B1C071 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 009C200F62BE5EF95A06E082BA85065D /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6361120DECC0FDAF47CEAE1A7555B145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		90AF6644F78D68E2E88BC691A9857502 /* Pods-wvlib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96008D46C884C3D6B50E1439F7C2AD14 /* Pods-wvlib_Example-dummy.m */; };
+		918A06A2663721696B275ECB972306B9 /* ApplePayTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 364E17A115361D89DBAB574FEF7FE17D /* ApplePayTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A304B83E733DFEEC3B16B258351CC17 /* paylib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDCDFE4E67E29B2B93629BB24578102 /* paylib-dummy.m */; };
+		9B28E52DA54F5E5A81BB55682DB3AEC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A194E36CB56FE404F8FEA33A2ED1DC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36739C43309FB2C581C0D374AC5026F1;
+			remoteInfo = paylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009C200F62BE5EF95A06E082BA85065D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		01123F5F7C6168B2C5A04FAB439A0124 /* paylib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = paylib.modulemap; sourceTree = "<group>"; };
+		0247090EF4A46333D92D4FA835E3006A /* paylib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = paylib.xcconfig; sourceTree = "<group>"; };
+		0C366A50A9CE668AB5685D3004DE57EB /* paylib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paylib-umbrella.h"; sourceTree = "<group>"; };
+		17AB2C7671CB933C83BB8DBD49751EDC /* Pods-wvlib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wvlib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BCD3FA04271CE467D2C79A11F146415 /* paylib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = paylib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		364E17A115361D89DBAB574FEF7FE17D /* ApplePayTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ApplePayTools.h; sourceTree = "<group>"; };
+		3CB75299D5AFD308295292FBDAACE90D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		790F511D416AA0E32F682D29CA40AE76 /* Pods-wvlib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvlib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7F479AB0FD25A8B37DC8B21CF1FF14C7 /* libappleIAP.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libappleIAP.a; path = appleIAP/libappleIAP.a; sourceTree = "<group>"; };
+		88734A9561BBFE078BF1191B17A2984A /* paylib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paylib-prefix.pch"; sourceTree = "<group>"; };
+		948CA61A1D8C37564F78E04C66BCD0D9 /* Pods_wvlib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wvlib_Example.framework; path = "Pods-wvlib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96008D46C884C3D6B50E1439F7C2AD14 /* Pods-wvlib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wvlib_Example-dummy.m"; sourceTree = "<group>"; };
+		99B97741F2830C21C15FD7C6AAED47CA /* paylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = paylib.framework; path = paylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDCDFE4E67E29B2B93629BB24578102 /* paylib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "paylib-dummy.m"; sourceTree = "<group>"; };
+		9FCE46EF3693D6805D844E8F2994B050 /* Pods-wvlib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wvlib_Example-umbrella.h"; sourceTree = "<group>"; };
+		BC429CADD9A419372C50F586630F827F /* Pods-wvlib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wvlib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB4E3D8C780EEE359879ADB07557F38D /* Pods-wvlib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wvlib_Example-Info.plist"; sourceTree = "<group>"; };
+		D1701489D6ED93C78E8968F6D4D91F50 /* prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		DA6137156C5091DEB04D5A084231A29B /* Pods-wvlib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wvlib_Example.modulemap"; sourceTree = "<group>"; };
+		EEFC348BF883CFC98AB3F811A19BDC1E /* paylib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "paylib-Info.plist"; sourceTree = "<group>"; };
+		F1CB36019A5C59CF84254130CC140274 /* Pods-wvlib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wvlib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BB9ED16B2572DD34FE6A7671353694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B28E52DA54F5E5A81BB55682DB3AEC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FF4C538900E95B3C6F6C4D24B1C5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6361120DECC0FDAF47CEAE1A7555B145 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1FE03C71B4D7BB5001ACAFF6ABC268 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3CB75299D5AFD308295292FBDAACE90D /* LICENSE */,
+				1BCD3FA04271CE467D2C79A11F146415 /* paylib.podspec */,
+				D1701489D6ED93C78E8968F6D4D91F50 /* prefix.pch */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6C4C939E56BE58FBED2FEFA17931D3D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01123F5F7C6168B2C5A04FAB439A0124 /* paylib.modulemap */,
+				0247090EF4A46333D92D4FA835E3006A /* paylib.xcconfig */,
+				9EDCDFE4E67E29B2B93629BB24578102 /* paylib-dummy.m */,
+				EEFC348BF883CFC98AB3F811A19BDC1E /* paylib-Info.plist */,
+				88734A9561BBFE078BF1191B17A2984A /* paylib-prefix.pch */,
+				0C366A50A9CE668AB5685D3004DE57EB /* paylib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/paylib";
+			sourceTree = "<group>";
+		};
+		7C3A561CA52142EE26F79BBD0542179D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				009C200F62BE5EF95A06E082BA85065D /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7ED8543F33B7560A8002A9294F39116B /* paylib */ = {
+			isa = PBXGroup;
+			children = (
+				D3370AB1A8D9A7DA377AA6D24D4B2CB6 /* appleIAP */,
+				825A4F827DE14EF24C5382B9AA26476F /* Frameworks */,
+				E147441C217D4FB5AFA22FB7F8DB66B0 /* paylib */,
+				3E1FE03C71B4D7BB5001ACAFF6ABC268 /* Pod */,
+				6C4C939E56BE58FBED2FEFA17931D3D5 /* Support Files */,
+			);
+			name = paylib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		825A4F827DE14EF24C5382B9AA26476F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F479AB0FD25A8B37DC8B21CF1FF14C7 /* libappleIAP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8689CCAEEA8DEC61F9F7F2943A9F7F61 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD8314F7C722D761773FF1AA2376395C /* Pods-wvlib_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A13703BA82CA4FCACC6308DD9FD6D9C8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8543F33B7560A8002A9294F39116B /* paylib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BD8314F7C722D761773FF1AA2376395C /* Pods-wvlib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DA6137156C5091DEB04D5A084231A29B /* Pods-wvlib_Example.modulemap */,
+				F1CB36019A5C59CF84254130CC140274 /* Pods-wvlib_Example-acknowledgements.markdown */,
+				17AB2C7671CB933C83BB8DBD49751EDC /* Pods-wvlib_Example-acknowledgements.plist */,
+				96008D46C884C3D6B50E1439F7C2AD14 /* Pods-wvlib_Example-dummy.m */,
+				CB4E3D8C780EEE359879ADB07557F38D /* Pods-wvlib_Example-Info.plist */,
+				9FCE46EF3693D6805D844E8F2994B050 /* Pods-wvlib_Example-umbrella.h */,
+				BC429CADD9A419372C50F586630F827F /* Pods-wvlib_Example.debug.xcconfig */,
+				790F511D416AA0E32F682D29CA40AE76 /* Pods-wvlib_Example.release.xcconfig */,
+			);
+			name = "Pods-wvlib_Example";
+			path = "Target Support Files/Pods-wvlib_Example";
+			sourceTree = "<group>";
+		};
+		C631479578A00938598D64B06EB919C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B97741F2830C21C15FD7C6AAED47CA /* paylib.framework */,
+				948CA61A1D8C37564F78E04C66BCD0D9 /* Pods_wvlib_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A13703BA82CA4FCACC6308DD9FD6D9C8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C631479578A00938598D64B06EB919C1 /* Products */,
+				8689CCAEEA8DEC61F9F7F2943A9F7F61 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3370AB1A8D9A7DA377AA6D24D4B2CB6 /* appleIAP */ = {
+			isa = PBXGroup;
+			children = (
+				364E17A115361D89DBAB574FEF7FE17D /* ApplePayTools.h */,
+			);
+			name = appleIAP;
+			path = appleIAP;
+			sourceTree = "<group>";
+		};
+		E147441C217D4FB5AFA22FB7F8DB66B0 /* paylib */ = {
+			isa = PBXGroup;
+			children = (
+				7C3A561CA52142EE26F79BBD0542179D /* Classes */,
+			);
+			name = paylib;
+			path = paylib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47765EEDFD48B4790302865078B37FE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5621A73BC9E571539984A8775BB18F4B /* Pods-wvlib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7632DB3C68870FE83F48E8040D3BBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918A06A2663721696B275ECB972306B9 /* ApplePayTools.h in Headers */,
+				3DBF156E32777092D4A47A436E7F6389 /* paylib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36739C43309FB2C581C0D374AC5026F1 /* paylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DE7FE8D25D82D3CA81FD68D07D0F59 /* Build configuration list for PBXNativeTarget "paylib" */;
+			buildPhases = (
+				FC7632DB3C68870FE83F48E8040D3BBE /* Headers */,
+				A21A7042B3C4905AB074EA4D83FD6CF6 /* Sources */,
+				B4FF4C538900E95B3C6F6C4D24B1C5F1 /* Frameworks */,
+				6C7697A232A9FE0C59BB5E036F47D57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paylib;
+			productName = paylib;
+			productReference = 99B97741F2830C21C15FD7C6AAED47CA /* paylib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB01090BB1767DCF9F27DCF731198616 /* Pods-wvlib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962B6795B3633C1904A101275317286E /* Build configuration list for PBXNativeTarget "Pods-wvlib_Example" */;
+			buildPhases = (
+				47765EEDFD48B4790302865078B37FE5 /* Headers */,
+				EB4338FC009CBF89EA37EF180D716819 /* Sources */,
+				01BB9ED16B2572DD34FE6A7671353694 /* Frameworks */,
+				A949884A8750AC54ABA892853CF99D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEA7194B5908DAAA87A9D9BAB4173D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-wvlib_Example";
+			productName = "Pods-wvlib_Example";
+			productReference = 948CA61A1D8C37564F78E04C66BCD0D9 /* Pods_wvlib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C631479578A00938598D64B06EB919C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36739C43309FB2C581C0D374AC5026F1 /* paylib */,
+				EB01090BB1767DCF9F27DCF731198616 /* Pods-wvlib_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7697A232A9FE0C59BB5E036F47D57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A949884A8750AC54ABA892853CF99D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21A7042B3C4905AB074EA4D83FD6CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A304B83E733DFEEC3B16B258351CC17 /* paylib-dummy.m in Sources */,
+				56554ACA5A0882C2E0A9A63767B1C071 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4338FC009CBF89EA37EF180D716819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF6644F78D68E2E88BC691A9857502 /* Pods-wvlib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BEA7194B5908DAAA87A9D9BAB4173D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = paylib;
+			target = 36739C43309FB2C581C0D374AC5026F1 /* paylib */;
+			targetProxy = A194E36CB56FE404F8FEA33A2ED1DC35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3D21870BC3E46F479C6F03A70AAB47C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC429CADD9A419372C50F586630F827F /* Pods-wvlib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wvlib_Example/Pods-wvlib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wvlib_Example/Pods-wvlib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		882396308DF004CDFA3995FA20B365DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790F511D416AA0E32F682D29CA40AE76 /* Pods-wvlib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wvlib_Example/Pods-wvlib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wvlib_Example/Pods-wvlib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C88C21F2EF168143E4DF408715A29F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0247090EF4A46333D92D4FA835E3006A /* paylib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paylib/paylib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paylib/paylib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/paylib/paylib.modulemap";
+				PRODUCT_MODULE_NAME = paylib;
+				PRODUCT_NAME = paylib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF6EEC3596F3A5B3E906DA69C7B7352B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0247090EF4A46333D92D4FA835E3006A /* paylib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paylib/paylib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paylib/paylib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/paylib/paylib.modulemap";
+				PRODUCT_MODULE_NAME = paylib;
+				PRODUCT_NAME = paylib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DE7FE8D25D82D3CA81FD68D07D0F59 /* Build configuration list for PBXNativeTarget "paylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6EEC3596F3A5B3E906DA69C7B7352B /* Debug */,
+				C88C21F2EF168143E4DF408715A29F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962B6795B3633C1904A101275317286E /* Build configuration list for PBXNativeTarget "Pods-wvlib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D21870BC3E46F479C6F03A70AAB47C7 /* Debug */,
+				882396308DF004CDFA3995FA20B365DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "paylib",
+  "version": "0.1.0",
+  "summary": "A short description of paylib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pfzq303/paylib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pfzq303": "pfzq303"
+  },
+  "source": {
+    "git": "https://github.com/pfzq303/paylib.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "appleIAP/*.h",
+    "paylib/Classes/**/*"
+  ],
+  "vendored_libraries": "appleIAP/*.a",
+  "public_header_files": "appleIAP/**/*.h",
+  "requires_arc": false,
+  "static_framework": true,
+  "prefix_header_file": "prefix.pch",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

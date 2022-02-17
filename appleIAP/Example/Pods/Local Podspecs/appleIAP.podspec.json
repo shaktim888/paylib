@@ -1,0 +1,39 @@
+{
+  "name": "appleIAP",
+  "version": "0.1.0",
+  "summary": "A short description of appleIAP.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tzt/hyInYAP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tzt": "hy"
+  },
+  "source": {
+    "git": "https://github.com/tzt/appleIAP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "appleIAP/Classes/**/*",
+  "public_header_files": "appleIAP/Classes/**/*.h",
+  "requires_arc": false,
+  "xcconfig": {
+    "OTHER_CFLAGS": "-fembed-bitcode",
+    "ONLY_ACTIVE_ARCH": "NO",
+    "OTHER_LDFLAGS": "$(inherited)",
+    "HEADER_SEARCH_PATHS": "$(inherited)",
+    "LIBRARY_SEARCH_PATHS": "$(inherited)"
+  },
+  "frameworks": "StoreKit",
+  "static_framework": true,
+  "script_phases": {
+    "name": "rebuild_a",
+    "script": "  FMK_NAME=${PROJECT_NAME}\n  if [ \"${ACTION}\" = \"build\" ]\n    then\n    INSTALL_DIR=${SRCROOT}/Products/appleIAP\n    DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/appleIAP\n    SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/appleIAP\n    \n    # -configuration ${CONFIGURATION}\n    # Clean and Building both architectures.\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n    #xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n    \n    if [ -d \"${INSTALL_DIR}\" ]\n      then\n      rm -rf \"${INSTALL_DIR}\"\n      fi\n      mkdir -p \"${INSTALL_DIR}\"\n      cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n      #ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n      lipo -create \"${DEVICE_DIR}/libappleIAP.a\" \"${SIMULATOR_DIR}/libappleIAP.a\" -output \"${INSTALL_DIR}/libappleIAP.a\"\n      #这个是合并完成后打开对应的文件夹，你就可以直接看到文件了\n      #open \"${SRCROOT}/Products/appleIAP\"\n    fi\n",
+    "execution_position": "after_compile"
+  },
+  "prefix_header_file": "appleIAP/Classes/LAPHelper/prefix.pch"
+}

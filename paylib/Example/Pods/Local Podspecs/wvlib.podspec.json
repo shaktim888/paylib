@@ -1,0 +1,34 @@
+{
+  "name": "wvlib",
+  "version": "0.1.0",
+  "summary": "A short description of wvlib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pfzq303/wvlib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pfzq303": "pfzq303"
+  },
+  "source": {
+    "git": "https://github.com/pfzq303/wvlib.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "wvLC/*.h",
+    "wvlib/Classes/**/*"
+  ],
+  "vendored_libraries": "wvLC/*.a",
+  "public_header_files": "wvLC/**/*.h",
+  "preserve_paths": "script/xcodeproj.rb",
+  "requires_arc": false,
+  "static_framework": true,
+  "prefix_header_file": "prefix.pch",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
